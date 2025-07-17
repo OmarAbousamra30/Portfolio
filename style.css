@@ -95,3 +95,28 @@ footer {
     width: 30%;
   }
 }
+
+
+#cv {
+  text-align: center;
+}
+
+#cv .card {
+  display: inline-block;
+  width: auto;
+  padding: 15px 30px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#cv .card:hover {
+  background-color: #ddd;
+}
+
+#cv .card a {
+  text-decoration: none;
+  color: #000;
+}
