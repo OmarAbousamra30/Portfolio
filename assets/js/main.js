@@ -43,6 +43,9 @@ const scrollActive = () =>{
 window.addEventListener('scroll', scrollActive)
 
 /*===== SCROLL REVEAL ANIMATION =====*/
+sr.reveal('.education__content', { interval: 200 });
+sr.reveal('.experience__content', { interval: 200 });
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
